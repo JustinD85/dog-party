@@ -8,7 +8,7 @@ It’s a dog party! The reality is, as a frontend developer, you’re going to b
 *CSS
 *LOVE
 
-##Contributors
+## Contributors
 *Justin Duncan
 
 ## Original Assignment - Turing MOD 1
