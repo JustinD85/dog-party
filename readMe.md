@@ -1,9 +1,9 @@
-#Dog-Party
+# Dog-Party
 
-##Synopsis
+## Synopsis
 It’s a dog party! The reality is, as a frontend developer, you’re going to be building out a lot of the UI on websites and apps. This can be a lot of fun, and you definitely want to get good at it! One of the beginning pieces is using semantic html and writing clean CSS. Similar to what you might do in a job, you’ve got a comp and need to build it out.
 
-##Built With
+## Built With
 *HTML
 *CSS
 *LOVE
