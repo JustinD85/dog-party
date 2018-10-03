@@ -1,0 +1,118 @@
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+table{
+  margin:1rem;
+  padding: 1rem;
+  table-layout: fixed;
+  height: 100%;
+}
+th{
+  font-weight: lighter;
+  /*max-width: 200px;*/
+}
+
+p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button {
+  border: 3px solid ;
+  border-color: #3f8da7;
+  margin-top: 10px;
+  color:#3f8da7;
+}
+.center{
+  margin: auto;
+  border-radius: 100%;
+  display: block;
+  border: 2px solid;
+  border-color: #3f8da7;
+  max-height: 200px;
+}
+.center2{
+  margin: auto;
+  border-radius: 100%;
+  display: block;
+  border: 2px solid;
+  border-color: #3f8da7;
+  max-height: 150px;
+  margin-top: 20px;
+}
+
+.float-top-left{
+  padding: 5px;
+  padding-left: 1rem;
+  height: 2rem;
+  width: 2rem;
+  text-align: none;
+}
+
+.float-top-right{
+  float: right;
+  padding: .7rem 1rem;
+  margin-right: 0 2rem;
+  margin-top: 0;
+}
+
+.footer{
+  padding: 1px 5rem;
+  background: #3f8da7;
+  color: white;
+}
+
+.gallery{
+  background: white;
+  padding:1rem;
+  text-align: center;
+  display: table;
+  padding: 0;
+}
+
+.inline{
+  /*display: inline-block;*/
+  border-radius:100%;
+  display: inline-block;
+}
+
+.no-top-margin{
+ padding-top: 10px;
+}
+
+.profile{
+  background-image: url("images/park.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 1rem 0rem;
+  text-align: center;
+}
+
+.size-me{
+  max-height: 75px;
+  width: 2rem;
+  padding: .5rem;
+  margin: 0 .5rem;
+  font-weight: : lighter;
+}
+
+.text {
+  text-align: center;
+  font-weight: lighter;
+
+}
+.topBar{
+  background-color: #92e0e5;
+  width: 100%;
+}
+.underline{
+  text-decoration: underline;
+}
