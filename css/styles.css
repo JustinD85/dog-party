@@ -1,6 +1,13 @@
+*{
+  text-align: center;
+}
 a{
   text-decoration: none;
   color: white;
+}
+p{
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 body {
@@ -9,26 +16,11 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-table{
-  margin:1rem;
-  padding: 1rem;
-  table-layout: fixed;
-  height: 100%;
-}
-th{
-  font-weight: lighter;
-  /*max-width: 200px;*/
-}
-
-p{
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .button {
   border: 3px solid ;
   border-color: #3f8da7;
   margin-top: 10px;
+  margin-bottom: 10px;
   color:#3f8da7;
 }
 .center{
@@ -68,30 +60,53 @@ p{
   padding: 1px 5rem;
   background: #3f8da7;
   color: white;
+  position: relative;
 }
 
-.gallery{
+/*DOG GALLERY PORTION*/
+.dog-gallery{
   background: white;
-  padding:1rem;
-  text-align: center;
-  display: table;
-  padding: 0;
+  position: relative;
+  top: 0%;
 }
 
-.inline{
-  /*display: inline-block;*/
-  border-radius:100%;
+.container {
+  position: relative;
   display: inline-block;
+  max-width: 320px;
+  vertical-align: top;
 }
+
+
+.inline-block{
+  display: inline-block;
+  border-radius:50%;
+  min-width: 245px;
+  max-width: 260px;
+ /* min-height: 398px;
+  max-height: 430px;*/
+  margin: 0px 1rem;
+  padding-top: 1rem;
+  position: relative;
+}
+
+
+
+.vertical-align-top{
+  vertical-align: top;
+}
+
+
+
 
 .no-top-margin{
  padding-top: 10px;
 }
 
 .profile{
-  background-image: url("images/park.jpg");
+  background-image: url("../images/park.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
   padding: 1rem 0rem;
   text-align: center;
 }
@@ -112,6 +127,7 @@ p{
 .topBar{
   background-color: #92e0e5;
   width: 100%;
+  text-align: left;
 }
 .underline{
   text-decoration: underline;
